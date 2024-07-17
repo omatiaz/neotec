@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #080e29;
+    color: white;
+}
+
+
+/* -------------------------------------------- MENU --------------------------------------------------------------------------------------*/
+
+#menu {
+    /*border: 1px solid cyan;*/
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #080e29cd    ;
+}
+
+a {
+  text-decoration: none;  
+}
+
+#menu a {
+    padding-left: 20px ;
+    color: white;
+}
+
+#menu a:hover, a:active{
+    color: #0073ff;
+}
+
+/* -------------------------------------------- FIM MENU --------------------------------------------------------------------------------------*/
+
+/* -------------------------------------------- Bloco 1 --------------------------------------------------------------------------------------*/
+
+#bloco1 {
+   /* border: solid 1px red; */
+    background-image: url(../imagens/bg-ondas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85%;
+    min-width: 720px;
+    max-width: 1160px;
+    height: 850px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#neoteclogo {
+    text-align: center;
+    padding-top: 266px;
+    padding-bottom: 0px;
+    font-size: 200px;
+}
+
+/* -------------------------------------------- FIM Bloco 1 --------------------------------------------------------------------------------------*/
+
+/* -------------------------------------------- Bloco 2 --------------------------------------------------------------------------------------*/
+
+#bloco2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85%;
+    min-width: 720px;
+    max-width: 1160px;
+    height: 850px;
+    margin: auto;
+}
+
+.vetor1-b2 {
+    width: 50%;
+    height: auto;
+    transition: 500ms;
+}
+
+.midvetor {
+    padding: 2px;
+}
+
+.description{
+    text-align: left;
+    float: right;
+    font-size: 16px;
+    letter-spacing: 3px;
+    flex: 1;
+    margin-top: 130px;
+}
+
+.linha1 {
+    float: left;
+    position: relative;
+    top: 85px;
+    left: 655px;
+}
+
+.description2 {
+    float: left;
+    font-size: 16px;
+    letter-spacing: 3px;
+    flex: 1;
+    margin-top: 180px;
+    padding-left: 30px;
+}
+
+.linha2 {
+    float: left;
+    position: relative;
+    top: 155px;
+    right: 510px;
+}
+
+.vetor2-b2 {
+    padding-top: 50px;
+    padding-left: 35px;
+    transition: 500ms;
+}
+
+/* -------------------------------------------- FIM Bloco 2 --------------------------------------------------------------------------------------*/
+
+/* -------------------------------------------- Bloco 3 --------------------------------------------------------------------------------------*/
+
+#bloco3 {
+    background-color: white;
+    width: 100%;
+    min-width: 720px;
+    height: 820px;
+    margin: auto;
+}
+
+#contentb3{
+    width: 85%;
+    min-width: 720px;
+    max-width: 1160px;
+    height: 820px;
+    margin: auto;
+}
+
+.titulo2 {
+    color: black;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 57px;
+}
+
+.subtitulos{
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#content-left{
+    width: 49.8%;
+    float: left;
+    height: 682px;
+}
+
+#content-right{
+    width: 49.8%;
+    float: right;
+    height: 682px;
+}
+
+.description3 {
+    color: #000520;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 3px;
+    flex: 1;
+    padding-top: 30px;
+    padding-left: 30px
+}
+
+.description4 {
+    color: #000520;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 3px;
+    flex: 1;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+/* -------------------------------------------- FIM Bloco 3 --------------------------------------------------------------------------------------*/
+
+/* -------------------------------------------- Bloco 4 --------------------------------------------------------------------------------------*/
+
+#bloco4 {
+     background-image: url(../imagens/bg-ondas.jpg);
+     background-repeat: no-repeat;
+     background-position: top;
+     width: 85%;
+     min-width: 720px;
+     max-width: 1160px;
+     height: 1020px;
+     margin: auto;
+ }
+
+ .titulo3 {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 57px;
+}
+
+.description5 {
+    display: block;
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 3px;
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+/*-------------------------------- FIM bloco 4 ---------------------------------------------*/
+
+/*-------------------------------- Forms ---------------------------------------------*/
+
+
+
+
+
+
+
+/* Forms Copilot*/
+.container {
+    max-width: 1160px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a24404d;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.column {
+    flex: 1;
+    padding: 30px;
+}
+/* Estilos para os campos de entrada */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+/* Estilos para o botão de envio */
+input[type="submit"] {
+    background-color: #0062ffb0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodape {
+    text-align: center;
+    background-color: white;
+    color: #000520;
+    font-weight: 500;
+}
+
